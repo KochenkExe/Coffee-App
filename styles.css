@@ -337,3 +337,59 @@ body {
   border: 1px solid #c67c4e;
   border-radius: 10px;
 }
+
+.delivery-options {
+  background-color: #e3e3e3;
+  margin-top: 60px;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.options {
+  padding: 8px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.picked-option {
+  background-color: #c67c4e;
+  color: white;
+  font-weight: bold;
+}
+
+.address-addition {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.product-img-payment {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.discount {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: white;
+  border-radius: 10px;
+}
+
+.harga-payment {
+  color: #c67c4e;
+}
+
+.btn-order {
+  text-align: center;
+  background-color: #c67c4e;
+  color: white;
+  font-weight: 800;
+  border-radius: 15px;
+  padding: 8px 25px;
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 10px;
+}

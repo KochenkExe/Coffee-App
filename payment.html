@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>To-Kopi</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="gambar/img-logo.png" />
+  </head>
+  <body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <div class="fixed-top">
+      <div class="nav-top">
+        <div class="row position-relative">
+          <div
+            class="col justify-content-space-between px-2 fs-5 py-1 d-flex flex-column align-items-center"
+          >
+            <a href="product.html"><i class="bi bi-chevron-left"></i></a>
+          </div>
+          <div
+            class="col justify-content-space-between px-2 fs-5 py-1 d-flex flex-column align-items-center"
+          >
+            Order
+          </div>
+          <div
+            class="col justify-content-space-between px-2 fs-5 py-1 d-flex flex-column align-items-center"
+          ></div>
+        </div>
+      </div>
+    </div>
+    <div class="delivery-options mb-4 px-4 py-2 container-fluid">
+      <div class="row d-flex justify-content-space-between">
+        <div class="col options picked-option">Delivery</div>
+        <div class="col options">Pick Up</div>
+      </div>
+    </div>
+    <div class="mx-2 delivery-details">
+      <div class="row mb-3 p-2 delivery-item">
+        <div>
+          <p class="mb-2 fw-bold">Alamat</p>
+          <p class="mb-0 fw-bold">Jl. Veteran</p>
+          <p class="fw-light">
+            Jl. Veteran, Ketawanggede, Lowokwaru, Kota Malang
+          </p>
+        </div>
+        <div class="col d-flex align-items-center">
+          <div>
+            <i class="bi bi-pencil-square address-addition"> Ubah Alamat</i>
+          </div>
+          <div>
+            <i class="bi bi-journal-text address-addition"> Tambah Catatan</i>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div
+        class="d-flex justify-content-between align-items-center px-3 border rounded"
+      >
+        <div class="d-flex align-items-center">
+          <img
+            src="/gambar/Coffee-Mocha.jpg"
+            alt="Coffee Mocha"
+            class="product-img-payment"
+          />
+          <div class="mt-4 lh-1">
+            <p class="fw-bold mb-2">Coffee Mocha</p>
+            <p class="text-muted">Deep Foam</p>
+          </div>
+        </div>
+        <div class="d-flex align-items-center">
+          <button class="btn btn-light btn-sm" id="decrease">-</button>
+          <span class="quantity mx-3 fw-bold">1</span>
+          <button class="btn btn-light btn-sm" id="increase">+</button>
+        </div>
+      </div>
+
+      <hr />
+      <div
+        class="p-2 mb-3 d-flex align-items-center justify-content-between discount"
+      >
+        <div class="d-flex align-items-center fs-20">
+          <i class="bi bi-gift mx-2" style="color: #c67c4e"></i>
+          <span class="mx-2">Beli 1 Gratis 5</span>
+        </div>
+        <i class="bi bi-chevron-right" style="font-size: 20px"></i>
+      </div>
+      <div class="row mb-3 p-2 delivery-item">
+        <p class="mb-4 fw-bold">Ringkasan Pesanan</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <p class="fw-light">Harga Pesanan</p>
+          <p>
+            <span class="text-decoration-line-through">Rp180.000</span> Rp30.000
+          </p>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+          <p class="fw-light">Harga Delivery</p>
+          <p>Rp10.000</p>
+        </div>
+        <div></div>
+      </div>
+    </div>
+    <div class="fixed-bottom">
+      <nav class="nav-bottom product">
+        <div class="container-fluid payment-detail">
+          <div
+            class="px-2 py-2 d-flex justify-content-between align-items-center"
+          >
+            <p>Total Harga</p>
+            <p class="harga-payment fw-bold">Rp40.000</p>
+          </div>
+          <div class="btn-order">Pesan</div>
+        </div>
+      </nav>
+    </div>
+  </body>
+</html>
